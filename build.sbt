@@ -20,7 +20,9 @@ libraryDependencies ++= Seq(
   "org.specs2"             %% "specs2"          % "2.4"    % "test",
   // JUnit is used for some Java interop. examples. A driver for JUnit:
   "junit"                   % "junit-dep"       % "4.10"   % "test",
-  "com.novocode"            % "junit-interface" % "0.10"   % "test"
+  "com.novocode"            % "junit-interface" % "0.10"   % "test",
+  "org.apache.spark" %% "spark-core" % "2.2.0",
+  "org.apache.spark" %% "spark-sql" % "2.2.0"
 )
 
 scalacOptions ++= Seq(
